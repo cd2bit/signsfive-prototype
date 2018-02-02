@@ -13,13 +13,14 @@
     <link rel="stylesheet" href="css/font-awesome.css">
   </head>
   <body>
+
     <!--nav-->
     <nav class="bg-dark">
       <div class="container">
         <div class="row pt-2 pb-1 pt-md-3 pb-md-2">
           <div class="col-6">
             <!--nav-btn-home-->
-            <a class="navbar-brand text-white tracked" href="#">SignsFive <sup><span class="badge badge-pill badge-secondary text-uppercase" style="font-size:0.5em;letter-spacing:0.2em">alpha</span></sup></a>
+            <a class="navbar-brand text-white tracked" href="index.html">SignsFive <sup><span class="badge badge-pill badge-secondary text-uppercase" style="font-size:0.5em;letter-spacing:0.2em">alpha</span></sup></a>
           </div>
           <div class="col-6">
             <div class="float-right">
@@ -32,6 +33,7 @@
         </div>
       </div>
     </nav>
+
     <!--search-->
     <form class="py-1 py-md-2 mx-0 sticky-top bg-dark">
       <!--search-input-->
@@ -50,117 +52,118 @@
       </div>
       <div class="col-md-6">
           <button type="button" class="btn btn-primary px-4 float-right">Upload</button>
-
       </div>
     </div>
     </div>
 
-
-    <!--your-submission-->
+    <!--submission-->
     <section class="container py-4 py-lg-5">
     <div class="row">
+      <!--your-submission-->
       <div class="col-sm-6">
         <h5>Your Submission</h5>
         <hr>
+        <!--your-submission-url-->
         <form class="pt-4">
-        <div class="form-group">
-          <label for="inputAddress">Enter a linked URL</label>
-          <input type="text" class="form-control" id="inputAddress" placeholder="Linked URL">
-          <small class="form-text text-muted">[How to upload / direction description goes here]</small>
-        </div>
+          <div class="form-group">
+            <label for="inputAddress">Enter a linked URL</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="URL">
+            <small class="form-text text-muted pt-1">[How to upload / direction description goes here]</small>
+          </div>
         </form>
+        <!--your-submission-preview-->
         <div class="pt-1">
           <p>Preview of your sign</p>
-        <section class="bg-dark text-white text-center align-middle py-5">Preview Goes Here</section>
-       
+          <section class="bg-dark text-white text-center align-middle py-5">Preview Goes Here</section>
+        </div>
       </div>
-      </div>
+      
       <!--submission-details-->
       <div class="col-sm-6 pt-5 pt-md-0">
         <h5>Submission Details</h5>
         <hr>
-  
         <form class="pt-4">
-            
-            <div class="form-group">
-              <label for="inputAddress">What is the term?</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Term">
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">What is the definition of the term?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Why did you sign it this way?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <div class="form-group">
-              <label for="inputAddress2">Where is this sign used?</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Ex. 'Chicago, IL' 'Upstate New York' 'Pacific Northwest'">
-            </div>
-
-
-
+          <!--submission-details-term-->
+          <div class="form-group">
+            <label for="inputAddress">What is the term?</label>
+            <input type="text" class="form-control" id="inputAddress" placeholder="Term">
+          </div>
+          <!--submission-details-term-definition-->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">What is the definition of the term?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <!--submission-details-why-->
+          <div class="form-group">
+            <label for="exampleFormControlTextarea1">Why did you sign it this way?</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <!--submission-details-where-->
+          <div class="form-group">
+            <label for="inputAddress2">Where is this sign used?</label>
+            <input type="text" class="form-control" id="inputAddress2" placeholder="e.g. 'Chicago, IL', 'Upstate New York', 'Pacific Northwest'">
+          </div>
       </div>
     </div>
     </section>
-      <!--footer-->
-      <footer class="bg-light">
+
+    <!--footer-->
+    <footer class="bg-light">
+        <div class="container">
+          <div class="row py-5 text-center">
+            <!--footer-btn-->
+            <div class="col">
+              <div class="float-md-left">
+                <button type="button" class="btn btn-outline-dark">Submit a Sign</button>
+                <!--footer-login-->
+                <p class="pt-3 footer-type tracked text-md-left"><span class="text-secondary">Have an Account?</span>
+                  <br><a href="#" class="text-dark">Log in</a></p>
+              </div>
+            </div>
+            <!--footer-guidance-->
+            <div class="col-md-2 tracked">
+              <div class="float-md-right text-md-left">
+                <h6 class="footer-type text-uppercase text-secondary">Guidance</h6>
+                <ul class="footer-type list-unstyled">
+                  <li class="py-1"><a href="#" class="text-dark">How it works</a></li>
+                  <li class="py-1"><a href="#" class="text-dark">Help Center</a></li>
+                </ul>
+              </div>
+            </div>
+            <!--footer-connect-->
+            <div class="col-md-2 tracked">
+              <div class="float-md-right text-md-left">
+                <h6 class="footer-type text-uppercase text-secondary">Connect</h6>
+                <ul class="footer-type list-unstyled">
+                  <li class="py-1"><a href="/about" class="text-dark">About us</a></li>
+                  <li class="py-1"><a href="mailto:signsfive.deaf@gmail.com" class="text-dark">Email</a></li>
+                  <li class="py-1"><a href="https://medium.com/signsfive" class="text-dark">Blog</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!--footer-banner-->
+        <div class="bg-dark">
           <div class="container">
-            <div class="row py-5 text-center">
-              <!--footer-btn-->
-              <div class="col">
-                <div class="float-md-left">
-                  <button type="button" class="btn btn-outline-dark">Submit a Sign</button>
-                  <!--footer-login-->
-                  <p class="pt-3 footer-type tracked text-md-left"><span class="text-secondary">Have an Account?</span>
-                    <br><a href="#" class="text-dark">Log in</a></p>
+            <div class="row text-center py-4">
+              <!--footer-chicago-->
+              <div class="col-md-6">
+                <div class="text-white footer-type tracked text-uppercase float-md-left">
+                  <p>Built with <i class="fa fa-heart" aria-hidden="true" aira-label="heart" style="color:#bbdcf0"></i> in Chicago</p>
                 </div>
               </div>
-              <!--footer-guidance-->
-              <div class="col-md-2 tracked">
-                <div class="float-md-right text-md-left">
-                  <h6 class="footer-type text-uppercase text-secondary">Guidance</h6>
-                  <ul class="footer-type list-unstyled">
-                    <li class="py-1"><a href="#" class="text-dark">How it works</a></li>
-                    <li class="py-1"><a href="#" class="text-dark">Help Center</a></li>
-                  </ul>
-                </div>
-              </div>
-              <!--footer-connect-->
-              <div class="col-md-2 tracked">
-                <div class="float-md-right text-md-left">
-                  <h6 class="footer-type text-uppercase text-secondary">Connect</h6>
-                  <ul class="footer-type list-unstyled">
-                    <li class="py-1"><a href="/about" class="text-dark">About us</a></li>
-                    <li class="py-1"><a href="mailto:signsfive.deaf@gmail.com" class="text-dark">Email</a></li>
-                    <li class="py-1"><a href="https://medium.com/signsfive" class="text-dark">Blog</a></li>
-                  </ul>
+              <!--footer-banner-social-->
+              <div class="col-md-6">
+                <div class="float-md-right">
+                  <a href="https://www.facebook.com/signsfive/" aria-label="Facebook"><i class="fa fa-facebook fa-lg fa-inverse px-3"></i></a>
+                  <a href="https://twitter.com/signsfive" aria-label="Twitter"><i class="fa fa-twitter fa-lg fa-inverse px-3"></i></a>
+                  <a href="https://www.instagram.com/signsfive" aria-label="Instagram"><i class="fa fa-instagram fa-lg fa-inverse px-3"></i></a>
                 </div>
               </div>
             </div>
           </div>
-    
-          <!--footer-banner-->
-          <div class="bg-dark">
-            <div class="container">
-              <div class="row text-center py-4">
-                <!--footer-chicago-->
-                <div class="col-md-6">
-                  <div class="text-white footer-type tracked text-uppercase float-md-left">
-                    <p>Built with <i class="fa fa-heart" aria-hidden="true" aira-label="heart" style="color:#bbdcf0"></i> in Chicago</p>
-                  </div>
-                </div>
-                <!--footer-banner-social-->
-                <div class="col-md-6">
-                  <div class="float-md-right">
-                    <a href="https://www.facebook.com/signsfive/" aria-label="Facebook"><i class="fa fa-facebook fa-lg fa-inverse px-3"></i></a>
-                    <a href="https://twitter.com/signsfive" aria-label="Twitter"><i class="fa fa-twitter fa-lg fa-inverse px-3"></i></a>
-                    <a href="https://www.instagram.com/signsfive" aria-label="Instagram"><i class="fa fa-instagram fa-lg fa-inverse px-3"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-        </footer>
+      </footer>
   </body>
 </html>
